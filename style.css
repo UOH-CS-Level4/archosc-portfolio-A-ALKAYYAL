@@ -21,14 +21,37 @@ body {
     margin: 5px 0;
 }
 
+.nav-links {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background: #667eea;
+    color: white;
+}
+
 .lab-report {
     background: white;
     padding: 20px;
     border: 1px solid #ccc;
 }
 
-.lab-report h2 {
+.lab-report h1 {
     margin-top: 0;
+    color: #333;
 }
 
 .step {
@@ -49,6 +72,15 @@ body {
     background: #f4f4f4;
     padding: 2px 5px;
     font-family: monospace;
+}
+
+.step img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
 .code-section {
@@ -73,13 +105,4 @@ body {
 
 .code-section code {
     font-family: monospace;
-}
-
-.step img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 4px;
 }
